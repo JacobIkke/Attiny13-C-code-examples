@@ -1,4 +1,4 @@
-#define F_CPU 9600000UL  // ATtiny13 runs at 1.2 MHz
+#define F_CPU 9600000UL  // ATtiny13 runs at 9.6 MHz
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
