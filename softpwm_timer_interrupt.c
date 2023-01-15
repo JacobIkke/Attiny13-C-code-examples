@@ -1,3 +1,9 @@
+/* This example is for common anode RGB LEDs. 
+If you have a common cathode RGB LED, 
+you need to swap the pin set and pin clear in the ISR. 
+Change PORTB &= ~(1 << RED_PIN); to PORTB |= (1 << RED_PIN); and vice versa for all three colors (red, green, and blue)."
+*/
+
 #define F_CPU 9600000UL  // ATtiny13 runs at 9.6 MHz
 #include <avr/io.h>
 #include <avr/interrupt.h>
